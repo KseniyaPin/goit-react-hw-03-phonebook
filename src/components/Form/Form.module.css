@@ -1,0 +1,81 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0px auto;
+  gap: 20px;
+  background-color: rgb(243, 254, 255);
+  border: 2px solid rgb(218, 228, 234);
+  border-radius: 7px;
+  width: 400px;
+  height: 180px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(143, 143, 143);
+}
+
+input {
+  padding: 8px;
+  margin-left: 20px;
+  font-weight: 400;
+  color: rgb(154, 154, 154);
+  border: 1px solid rgb(218, 228, 234);
+  border-radius: 5px;
+  height: 20px;
+
+  outline: none;
+}
+
+h1,
+h2 {
+  display: flex;
+  flex-direction: column;
+  color: rgb(59, 127, 143);
+  margin-top: 20px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 0px;
+  gap: 20px;
+  font-weight: 600;
+  color: rgb(59, 127, 143);
+}
+
+button {
+  border: 1px solid rgb(218, 228, 234);
+  background-color: rgb(177, 177, 177);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 3px;
+  width: 120px;
+  height: 35px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 0px auto;
+  gap: 20px;
+  background-color: rgb(243, 254, 255);
+  border: 2px solid rgb(218, 228, 234);
+  border-radius: 7px;
+  width: 400px;
+  min-height: 180px;
+}
